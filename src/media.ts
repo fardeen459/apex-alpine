@@ -12,6 +12,7 @@ const FILES = {
   mp4: ['hero.mp4', 'video/mp4'], webm: ['hero.webm', 'video/webm'], poster: ['poster.webp', 'image/webp'],
   drift: ['g-drift.webp', 'image/webp'], valley: ['g-valley.webp', 'image/webp'], road: ['g-road.webp', 'image/webp'],
   wheel: ['g-wheel.webp', 'image/webp'], sunrise: ['g-sunrise.webp', 'image/webp'], spray: ['g-spray.webp', 'image/webp'],
+  profile: ['g-profile.webp', 'image/webp'], pass: ['g-pass.webp', 'image/webp'],
 } as const
 export type MediaKey = keyof typeof FILES
 export const mediaMode = B64 ? 'b64' : 'binary'
